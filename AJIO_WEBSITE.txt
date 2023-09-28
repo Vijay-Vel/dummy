@@ -1,0 +1,19 @@
+12:38: REQUIREMENT:
+Req1: Search Functionality
+R1.1: Enter the search item in the search box and click on the search icon. It Should return the matched search result.
+==> test pass
+
+Req2: Field Validation
+R2.1:  The Search Item should accept only text.
+==> test fail ==> it accepts numbers also and there is no numbers match to listed items below
+R2.2: The search icon should be clickable only for the valid Search Item.
+==> test pass 
+R2.3: Search key should contain maximum of 15 characters. After the 15th character it should not accept in the search box.
+==> test fail ==> it accepts more than 15 characters and doesn't throw any warning messages.
+
+Req3:
+R3.1: The Page should open different browser like chrome, edge.
+==> test pass
+R3.2: The Search box should contain Search ITEM.
+==> test pass
+https://www.ajio.com/

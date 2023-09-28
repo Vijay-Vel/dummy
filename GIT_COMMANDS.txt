@@ -1,0 +1,23 @@
+sudo su- // to go to root user
+mkdir myproject
+cd myproject
+touch file1.java, file2.java
+
+gitint   // to create .git repo
+ls -al   // to list all hidden files in that directory
+
+
+// creating a GLOBAL config
+git config --global user.name vijay
+git config --global user.email vijay@gmail.com
+
+git config --list   //to show the details of the global config user name and user email
+
+cat ~/.gitconfig
+git status  
+
+git add file1 file2  or git add .   or git -a   // to add files to staging area
+
+git commit -m " first commit"
+
+git ls-files
